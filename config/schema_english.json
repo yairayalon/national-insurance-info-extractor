@@ -1,0 +1,49 @@
+{
+  "lastName": "string",
+  "firstName": "string",
+  "idNumber": "string",
+  "gender": "string",
+  "dateOfBirth": {
+    "day": "string",
+    "month": "string",
+    "year": "string"
+  },
+  "address": {
+    "street": "string",
+    "houseNumber": "string",
+    "entrance": "string",
+    "apartment": "string",
+    "city": "string",
+    "postalCode": "string",
+    "poBox": "string"
+  },
+  "landlinePhone": "string",
+  "mobilePhone": "string",
+  "jobType": "string",
+  "dateOfInjury": {
+    "day": "string",
+    "month": "string",
+    "year": "string"
+  },
+  "timeOfInjury": "string",
+  "accidentLocation": "string",
+  "accidentAddress": "string",
+  "accidentDescription": "string",
+  "injuredBodyPart": "string",
+  "signature": "string",
+  "formFillingDate": {
+    "day": "string",
+    "month": "string",
+    "year": "string"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "string",
+    "month": "string",
+    "year": "string"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "string",
+    "natureOfAccident": "string",
+    "medicalDiagnoses": "string"
+  }
+}
