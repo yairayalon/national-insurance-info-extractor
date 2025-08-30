@@ -21,19 +21,21 @@ This project processes filled National Insurance form 283 (בקשה למתן ט�
 The system follows a modular architecture:
 
 ```
-├── main.py                 # Core processing logic and FormProcessor class
-├── modules/
-│   ├── config_loader.py    # Configuration management
-│   ├── ocr_processor.py    # Azure Document Intelligence integration
-│   ├── field_validator.py  # Data validation and quality scoring
+national-insurance-info-extractor/
+├── main.py                  # Main application entry point
+├── README.md                # Project documentation
+├── requirements.txt         # Dependencies
+├── .env.example             # Environment variables template
+├── modules/                 # Core processing modules
+│   ├── config_loader.py     # Load configuration and schemas
+│   ├── field_validator.py   # Validate extracted fields
+│   ├── ocr_processor.py     # OCR extraction logic
 │   └── __init__.py
-├── streamlit_app.py        # Web interface
-├── config/
-│   ├── schema_english.json # English field schema
-│   └── schema_hebrew.json  # Hebrew field schema
-├── requirements.txt        # Python dependencies
-├── .env.example           # Environment variables template
-└── phase1_data/           # Test forms (provided in assignment)
+├── ui/                      # User interface
+│   └── streamlit_app.py     # Streamlit front-end
+└── config/                  # Schema definitions
+    ├── schema_english.json
+    └── schema_hebrew.json
 ```
 
 ## Installation
